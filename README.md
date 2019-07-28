@@ -7,13 +7,6 @@
   * Seleniumを使わずにできるかやってみよう
     * Karma+Jasmine使うとできそうな気がする
 
-## やったこと
-
-  * `npm init`
-  * `npm install karma --save-dev`
-  * `npm run karma -- init`
-  * `npm install karma-html2js-preprocessor --save-dev`
-
 ## はまったところ
 
   * 画面をJasmineにどうやって持ち込むか?
