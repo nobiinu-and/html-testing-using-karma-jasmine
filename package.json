@@ -21,6 +21,7 @@
     "karma": "^4.2.0",
     "karma-chrome-launcher": "^3.0.0",
     "karma-html2js-preprocessor": "^1.1.0",
-    "karma-jasmine": "^2.0.1"
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-ajax": "^0.1.13"
   }
 }
