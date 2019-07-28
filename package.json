@@ -1,0 +1,19 @@
+{
+  "name": "html-testing-using-karma-jasmine",
+  "version": "1.0.0",
+  "description": "testing html file using karma jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobiinu-and/html-testing-using-karma-jasmine.git"
+  },
+  "author": "Toshiyuki Ando",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/nobiinu-and/html-testing-using-karma-jasmine/issues"
+  },
+  "homepage": "https://github.com/nobiinu-and/html-testing-using-karma-jasmine#readme"
+}
