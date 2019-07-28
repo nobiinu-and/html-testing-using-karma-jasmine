@@ -4,7 +4,8 @@
   "description": "testing html file using karma jasmine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "karma": "node node_modules/karma/bin/karma"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nobiinu-and/html-testing-using-karma-jasmine/issues"
   },
-  "homepage": "https://github.com/nobiinu-and/html-testing-using-karma-jasmine#readme"
+  "homepage": "https://github.com/nobiinu-and/html-testing-using-karma-jasmine#readme",
+  "devDependencies": {
+    "karma": "^4.2.0"
+  }
 }
