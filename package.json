@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/nobiinu-and/html-testing-using-karma-jasmine#readme",
   "devDependencies": {
-    "karma": "^4.2.0"
+    "karma": "^4.2.0",
+    "karma-chrome-launcher": "^3.0.0",
+    "karma-jasmine": "^2.0.1"
   }
 }
