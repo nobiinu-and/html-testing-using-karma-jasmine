@@ -16,14 +16,33 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'test/js/*.js',
-      'index.html'
+      // 読み込む順序があるため、分けて指定している
+      'assets/js/jquery-3.4.1.min.js',
+      'assets/js/bootstrap.bundle.min.js',
+      'assets/js/main.js',
+      'index.html',
+      {
+        pattern: 'assets/css/*.css',
+        included: false,
+        served: true
+      },
+      {
+        pattern: 'assets/images/*',
+        included: false,
+        served: true
+      }
     ],
 
 
     // list of files / patterns to exclude
     exclude: [
+      'assets/js/boot.js'
     ],
 
+    proxies: {
+      '/assets/css/': '/base/assets/css/',
+      '/assets/images/': '/base/assets/images/'
+    },
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
