@@ -15,6 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      'test/js/*.js',
+      'index.html'
     ],
 
 
@@ -26,6 +28,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+      'index.html': ['html2js']
     },
 
 
@@ -63,6 +66,11 @@ module.exports = function(config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity
+    concurrency: Infinity,
+
+    client: {
+      // 画面(html)が表示されてるか確認したいので。
+      clearContext: false,
+    }
   })
 }
