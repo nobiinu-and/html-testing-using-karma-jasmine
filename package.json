@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/nobiinu-and/html-testing-using-karma-jasmine#readme",
   "devDependencies": {
-    "karma": "^4.2.0",
+    "karma": "^6.4.1",
     "karma-chrome-launcher": "^3.0.0",
     "karma-html2js-preprocessor": "^1.1.0",
     "karma-jasmine": "^2.0.1",
